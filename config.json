@@ -1,0 +1,15 @@
+{
+  "camera_index": 0,
+  "frame_width": 640,
+  "frame_height": 480,
+  "detection_areas": [
+    {
+      "name": "Alea1",
+      "x": 300,
+      "y": 100,
+      "width": 200,
+      "height": 200
+    }
+    
+  ]
+}
