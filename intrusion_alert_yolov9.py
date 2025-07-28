@@ -22,7 +22,9 @@ class PersonDetector:
             print("YOLOモデルを読み込み中...")
             # YOLOv9の事前訓練済みモデルを使用
             # 利用可能なモデル: yolov9n.pt, yolov9s.pt, yolov9m.pt, yolov9l.pt, yolov9x.pt
-            self.model = YOLO('yolov9n.pt')  
+            self.model = YOLO('yolov9n.pt')
+            #self.model = YOLO('yolov8n-pose.pt')  
+              
             print(f"モデルをデバイス {self.device} で実行します")
             self.use_yolo = True
         except Exception as e:
