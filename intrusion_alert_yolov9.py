@@ -303,7 +303,7 @@ def main():
                        help='設定ファイルのパス (デフォルト: config.json)')
     parser.add_argument('--confidence', '-conf', type=float, default=0.5,
                        help='検出の信頼度閾値 (デフォルト: 0.5)')
-    parser.add_argument('--model', '-m', default='yolov9-c.pt',
+    parser.add_argument('--model', '-m', default='yolov9s.pt',
     choices=['yolov9-c.pt', 'yolov9s.pt', 'yolov9m.pt', 'yolov9l.pt', 'yolov9x.pt', 'yolov9-c.pt'],
     help='使用するYOLOモデル (デフォルト: yolov9s.pt)')
     
