@@ -5,10 +5,10 @@
   "detection_areas": [
     {
       "name": "Alea1",
-      "x": 300,
+      "x": 50,
       "y": 100,
       "width": 200,
-      "height": 200
+      "height": 300
     }
     
   ]
